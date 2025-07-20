@@ -123,13 +123,24 @@ export async function getTrainersData(): Promise<Trainer[]> {
     // 首先嘗試使用本地 JSON 檔案（建構時產生的資料）
     try {
       console.log('嘗試讀取本地訓練家資料...');
-      const response = await fetch('/trainers-data.json');
+      
+      // 在客戶端使用當前 origin + pathname，伺服器端使用相對路徑
+      let jsonUrl = './trainers-data.json';
+      if (typeof window !== 'undefined') {
+        const baseUrl = window.location.origin + window.location.pathname;
+        jsonUrl = new URL('./trainers-data.json', baseUrl).href;
+      }
+      
+      console.log('JSON URL:', jsonUrl);
+      const response = await fetch(jsonUrl);
       
       if (response.ok) {
         const data = await response.json();
         console.log(`✅ 成功讀取本地資料: ${data.totalTrainers} 位訓練家`);
         console.log('資料時間戳:', data.timestamp);
         return data.trainers;
+      } else {
+        console.warn(`本地 JSON 檔案回應錯誤: ${response.status} ${response.statusText}`);
       }
     } catch (jsonError) {
       console.warn('本地 JSON 檔案讀取失敗:', jsonError);
@@ -139,7 +150,16 @@ export async function getTrainersData(): Promise<Trainer[]> {
     if (typeof window !== 'undefined' || process.env.NODE_ENV === 'development') {
       try {
         console.log('嘗試使用 API 路由抓取資料...');
-        const apiResponse = await fetch('/api/sheets');
+        
+        // 在客戶端使用當前 origin + pathname，伺服器端使用相對路徑
+        let apiUrl = './api/sheets';
+        if (typeof window !== 'undefined') {
+          const baseUrl = window.location.origin + window.location.pathname;
+          apiUrl = new URL('./api/sheets', baseUrl).href;
+        }
+        
+        console.log('API URL:', apiUrl);
+        const apiResponse = await fetch(apiUrl);
         
         if (apiResponse.ok) {
           const apiData = await apiResponse.json();
@@ -152,6 +172,8 @@ export async function getTrainersData(): Promise<Trainer[]> {
               return parsedData;
             }
           }
+        } else {
+          console.warn(`API 路由回應錯誤: ${apiResponse.status} ${apiResponse.statusText}`);
         }
       } catch (apiError) {
         console.warn('API 路由失敗:', apiError);
