@@ -39,7 +39,7 @@ git push -u origin main
 ## 🌐 網站路徑
 部署完成後，您的網站將可在以下位址存取：
 ```
-https://YOUR_USERNAME.github.io/PokemonGOFriend
+https://cookieseventeen.github.io/PokemonGOFriend
 ```
 
 ## 📊 專案資訊
