@@ -2,13 +2,13 @@
   "name": "pokemon-go-friend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/PokemonGOFriend",
+  "homepage": "https://benhsieh-lab.github.io/PokemonGOFriend",
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/fetch-data.js && next build",
     "start": "next start",
     "export": "node scripts/fetch-data.js && next build",
-    "deploy": "npm run export && touch out/.nojekyll && echo 'yourusername.github.io' > out/CNAME",
+    "deploy": "npm run export && touch out/.nojekyll && echo 'benhsieh-lab.github.io' > out/CNAME",
     "predeploy": "npm run export"
   },
   "dependencies": {
