@@ -62,12 +62,47 @@ export default function TrainerCard({ trainer }: TrainerCardProps) {
   // 格式化顯示訓練家代碼
   const formattedCode = formatTrainerCode(trainer.id);
 
+  // 格式化時間顯示
+  const formatTimestamp = (timestamp?: string) => {
+    if (!timestamp) return '';
+    
+    try {
+      const date = new Date(timestamp);
+      const now = new Date();
+      const diffInHours = Math.floor((now.getTime() - date.getTime()) / (1000 * 60 * 60));
+      
+      if (diffInHours < 1) {
+        return '剛剛加入';
+      } else if (diffInHours < 24) {
+        return `${diffInHours} 小時前`;
+      } else if (diffInHours < 24 * 7) {
+        const days = Math.floor(diffInHours / 24);
+        return `${days} 天前`;
+      } else {
+        return date.toLocaleDateString('zh-TW', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric'
+        });
+      }
+    } catch (error) {
+      return '';
+    }
+  };
+
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 m-4 max-w-sm mx-auto transform hover:scale-105 transition-transform duration-300">
       <div className="text-center">
-        <h2 className="text-2xl font-bold text-gray-800 mb-2">
-          {trainer.name}
-        </h2>
+        <div className="flex justify-between items-start mb-2">
+          <h2 className="text-2xl font-bold text-gray-800 flex-1">
+            {trainer.name}
+          </h2>
+          {trainer.timestamp && (
+            <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full ml-2">
+              {formatTimestamp(trainer.timestamp)}
+            </span>
+          )}
+        </div>
         
         <div 
           className="bg-gray-100 rounded-lg p-3 mb-4 cursor-pointer hover:bg-gray-200 transition-colors"

@@ -1,6 +1,44 @@
 const fs = require('fs');
 const path = require('path');
 
+// 解析中文時間格式的函式
+function parseChineseDateTime(dateTimeString) {
+  if (!dateTimeString) return null;
+  
+  try {
+    // 嘗試手動解析中文格式: "2025/3/2 上午 7:36:47"
+    const match = dateTimeString.match(/(\d{4})\/(\d{1,2})\/(\d{1,2})\s+(上午|下午)\s+(\d{1,2}):(\d{1,2}):(\d{1,2})/);
+    if (match) {
+      const [, year, month, day, period, hour, minute, second] = match;
+      
+      let hour24 = parseInt(hour);
+      if (period === '下午' && hour24 !== 12) {
+        hour24 += 12;
+      } else if (period === '上午' && hour24 === 12) {
+        hour24 = 0;
+      }
+      
+      const manualDate = new Date(
+        parseInt(year),
+        parseInt(month) - 1, // JavaScript 月份從 0 開始
+        parseInt(day),
+        hour24,
+        parseInt(minute),
+        parseInt(second)
+      );
+      
+      if (!isNaN(manualDate.getTime())) {
+        return manualDate.toISOString();
+      }
+    }
+    
+    return null;
+  } catch (error) {
+    console.warn('時間解析錯誤:', error);
+    return null;
+  }
+}
+
 async function fetchTrainersData() {
   try {
     const sheetId = '1UpaoJ8s_cQvqTDamczEPzHGDHkvLNwTHnXbrWYkhYy8';
@@ -56,6 +94,7 @@ async function fetchTrainersData() {
         
         // 檢查是否有足夠的欄位
         if (columns.length >= 3 && columns[1] && (columns[2] || columns[columns.length - 1])) {
+          const timestamp = columns[0] || ''; // 第一欄可能是時間戳記
           const trainerName = columns[1];
           
           // 優先使用最後一欄的純數字代碼
@@ -68,10 +107,31 @@ async function fetchTrainersData() {
           
           // 確保是12位數字
           if (trainerCode && trainerCode.length === 12) {
-            trainers.push({
+            const trainer = {
               name: trainerName,
               id: trainerCode
-            });
+            };
+            
+            // 如果第一欄看起來像時間戳記，就加入
+            if (timestamp && (timestamp.includes('-') || timestamp.includes('/') || timestamp.includes('T') || timestamp.includes(':'))) {
+              // 先嘗試中文時間格式解析
+              const parsedTime = parseChineseDateTime(timestamp);
+              if (parsedTime) {
+                trainer.timestamp = parsedTime;
+              } else {
+                // 嘗試標準時間格式解析
+                try {
+                  const date = new Date(timestamp);
+                  if (!isNaN(date.getTime())) {
+                    trainer.timestamp = date.toISOString();
+                  }
+                } catch (e) {
+                  // 如果無法解析時間，就不加入時間戳記
+                }
+              }
+            }
+            
+            trainers.push(trainer);
           } else {
             skippedLines++;
           }

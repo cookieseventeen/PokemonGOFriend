@@ -1,14 +1,38 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Trainer } from '@/types/trainer';
+import { Trainer, SortOrder } from '@/types/trainer';
 import { getTrainersData } from '@/lib/sheets';
 import TrainerCard from '@/components/TrainerCard';
 
 export default function HomePage() {
   const [trainers, setTrainers] = useState<Trainer[]>([]);
+  const [sortedTrainers, setSortedTrainers] = useState<Trainer[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string>('');
+  const [sortOrder, setSortOrder] = useState<SortOrder>('desc');
+
+  // 排序訓練家資料
+  const sortTrainersByTime = (trainersToSort: Trainer[], order: SortOrder) => {
+    return [...trainersToSort].sort((a, b) => {
+      // 如果沒有時間戳記，使用加入順序（陣列索引）
+      const timeA = a.timestamp ? new Date(a.timestamp).getTime() : trainers.indexOf(a);
+      const timeB = b.timestamp ? new Date(b.timestamp).getTime() : trainers.indexOf(b);
+      
+      if (order === 'asc') {
+        return timeA - timeB; // 舊到新（正序）
+      } else {
+        return timeB - timeA; // 新到舊（倒序）
+      }
+    });
+  };
+
+  // 切換排序順序
+  const toggleSortOrder = () => {
+    const newOrder: SortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
+    setSortOrder(newOrder);
+    setSortedTrainers(sortTrainersByTime(trainers, newOrder));
+  };
 
   useEffect(() => {
     async function loadData() {
@@ -16,7 +40,15 @@ export default function HomePage() {
         console.log('開始載入訓練家資料...');
         const data = await getTrainersData();
         console.log('成功載入訓練家資料:', data);
-        setTrainers(data);
+        
+        // 為沒有時間戳記的資料新增當前時間
+        const dataWithTimestamp = data.map((trainer, index) => ({
+          ...trainer,
+          timestamp: trainer.timestamp || new Date().toISOString()
+        }));
+        
+        setTrainers(dataWithTimestamp);
+        setSortedTrainers(sortTrainersByTime(dataWithTimestamp, sortOrder));
       } catch (err) {
         console.error('載入資料失敗:', err);
         setError('無法載入訓練家資料');
@@ -27,6 +59,13 @@ export default function HomePage() {
 
     loadData();
   }, []);
+
+  // 當排序順序改變時重新排序
+  useEffect(() => {
+    if (trainers.length > 0) {
+      setSortedTrainers(sortTrainersByTime(trainers, sortOrder));
+    }
+  }, [sortOrder]);
 
   if (loading) {
     return (
@@ -67,13 +106,38 @@ export default function HomePage() {
           </p>
         </header>
 
-        {trainers.length === 0 ? (
+        {/* 排序控制項 */}
+        {sortedTrainers.length > 0 && (
+          <div className="flex justify-center mb-6">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+              <div className="flex items-center gap-4">
+                <span className="text-white font-medium">依時間排序：</span>
+                <button
+                  onClick={toggleSortOrder}
+                  className="flex items-center gap-2 bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-lg transition-colors"
+                >
+                  <span>{sortOrder === 'asc' ? '最舊到最新' : '最新到最舊'}</span>
+                  <svg 
+                    className={`w-4 h-4 transition-transform ${sortOrder === 'asc' ? 'rotate-180' : ''}`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {sortedTrainers.length === 0 ? (
           <div className="text-center">
             <p className="text-white text-lg">目前沒有訓練家資料</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {trainers.map((trainer, index) => (
+            {sortedTrainers.map((trainer, index) => (
               <TrainerCard 
                 key={`${trainer.id}-${index}`} 
                 trainer={trainer} 
@@ -84,7 +148,8 @@ export default function HomePage() {
 
         <footer className="text-center mt-12">
           <p className="text-white/60 text-sm">
-            資料來源：Google Sheets | 總共 {trainers.length} 位訓練家
+            資料來源：Google Sheets | 總共 {sortedTrainers.length} 位訓練家
+            {sortOrder === 'asc' ? ' | 排序：最舊到最新' : ' | 排序：最新到最舊'}
           </p>
         </footer>
       </div>
