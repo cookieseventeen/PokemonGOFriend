@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .pokeball {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(180deg, red 50%, white 50%);
+            border-radius: 50%;
+            border: 2px solid black;
+            position: relative;
+        }
+        .pokeball::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 8px;
+            height: 8px;
+            background: white;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="pokeball"></div>
+</body>
+</html>
