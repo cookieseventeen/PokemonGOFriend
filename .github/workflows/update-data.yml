@@ -8,6 +8,10 @@ on:
   # 也允許手動觸發
   workflow_dispatch:
 
+# 設定必要的權限
+permissions:
+  contents: write
+
 jobs:
   update-trainers-data:
     runs-on: ubuntu-latest
@@ -16,7 +20,7 @@ jobs:
     - name: 檢出程式碼
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
         
     - name: 設定 Node.js
       uses: actions/setup-node@v4
@@ -42,8 +46,8 @@ jobs:
     - name: 提交並推送變更
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         git add public/trainers-data.json
         git commit -m "自動更新訓練家資料 - $(date +'%Y-%m-%d %H:%M:%S')"
         git push
