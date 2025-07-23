@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-07-22T00:18:58.849Z",
-  "totalTrainers": 314,
+  "timestamp": "2025-07-23T00:18:36.901Z",
+  "totalTrainers": 316,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1571,6 +1571,16 @@
       "name": "SalmonXiao",
       "id": "921734785086",
       "timestamp": "2025-07-22T07:45:30.000Z"
+    },
+    {
+      "name": "Juuun64737",
+      "id": "826290409931",
+      "timestamp": "2025-07-22T20:51:21.000Z"
+    },
+    {
+      "name": "asse123",
+      "id": "990890559291",
+      "timestamp": "2025-07-22T20:59:17.000Z"
     }
   ]
 }
