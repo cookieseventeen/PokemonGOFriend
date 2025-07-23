@@ -110,6 +110,67 @@ export default function HomePage() {
           </p>
         </header>
 
+        {/* 說明區塊 */}
+        <section className="mb-8">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 max-w-4xl mx-auto">
+            <h3 className="text-white font-semibold text-xl mb-4 text-center">
+              📋 相關連結與資訊
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-white/5 rounded-lg p-4">
+                <h4 className="text-white font-medium text-lg mb-2 flex items-center">
+                  📝 好友表單
+                </h4>
+                <p className="text-white/70 text-sm mb-3">
+                  想要新增您的好友代碼？填寫表單加入我們的好友列表！
+                </p>
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeo1EZcUz3_dvvc4lcl0w_9P_sgGBbWki3M-n9g__oopzfBxA/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-sm transition-colors"
+                >
+                  填寫表單 ↗
+                </a>
+              </div>
+              
+              <div className="bg-white/5 rounded-lg p-4">
+                <h4 className="text-white font-medium text-lg mb-2 flex items-center">
+                  📊 資料來源
+                </h4>
+                <p className="text-white/70 text-sm mb-3">
+                  所有好友資料都來自 Google Sheets，即時更新同步。
+                </p>
+                <a 
+                  href="https://docs.google.com/spreadsheets/d/1UpaoJ8s_cQvqTDamczEPzHGDHkvLNwTHnXbrWYkhYy8/edit?gid=473917600#gid=473917600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-sm transition-colors"
+                >
+                  查看資料表 ↗
+                </a>
+              </div>
+
+              <div className="bg-white/5 rounded-lg p-4">
+                <h4 className="text-white font-medium text-lg mb-2 flex items-center">
+                  🎮 巴哈姆特
+                </h4>
+                <p className="text-white/70 text-sm mb-3">
+                  感謝巴哈姆特大大提供的寶貴資訊與支援！
+                </p>
+                <a 
+                  href="https://forum.gamer.com.tw/C.php?bsn=29659&snA=30808&tnum=6845&subbsn=6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded-lg text-sm transition-colors"
+                >
+                  巴哈討論區 ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         {/* 排序控制項 */}
         {sortedTrainers.length > 0 && (
