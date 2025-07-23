@@ -39,49 +39,49 @@
     <h1>🎮 Pokémon GO 好友列表 - Icon 載入測試</h1>
     
     <div class="icon-test">
-        <img src="/favicon.ico" width="32" height="32" alt="favicon.ico">
+        <img src="./favicon.ico" width="32" height="32" alt="favicon.ico">
         <span>favicon.ico</span>
         <span class="status" id="favicon-ico">檢查中...</span>
     </div>
     
     <div class="icon-test">
-        <img src="/favicon.svg" width="32" height="32" alt="favicon.svg">
+        <img src="./favicon.svg" width="32" height="32" alt="favicon.svg">
         <span>favicon.svg</span>
         <span class="status" id="favicon-svg">檢查中...</span>
     </div>
     
     <div class="icon-test">
-        <img src="/apple-touch-icon.png" width="32" height="32" alt="apple-touch-icon.png">
+        <img src="./apple-touch-icon.png" width="32" height="32" alt="apple-touch-icon.png">
         <span>apple-touch-icon.png (180x180)</span>
         <span class="status" id="apple-touch">檢查中...</span>
     </div>
     
     <div class="icon-test">
-        <img src="/favicon-16x16.png" width="16" height="16" alt="favicon-16x16.png">
+        <img src="./favicon-16x16.png" width="16" height="16" alt="favicon-16x16.png">
         <span>favicon-16x16.png</span>
         <span class="status" id="favicon-16">檢查中...</span>
     </div>
     
     <div class="icon-test">
-        <img src="/favicon-32x32.png" width="32" height="32" alt="favicon-32x32.png">
+        <img src="./favicon-32x32.png" width="32" height="32" alt="favicon-32x32.png">
         <span>favicon-32x32.png</span>
         <span class="status" id="favicon-32">檢查中...</span>
     </div>
     
     <div class="icon-test">
-        <img src="/icon-192x192.png" width="32" height="32" alt="icon-192x192.png">
+        <img src="./icon-192x192.png" width="32" height="32" alt="icon-192x192.png">
         <span>icon-192x192.png (PWA)</span>
         <span class="status" id="icon-192">檢查中...</span>
     </div>
     
     <div class="icon-test">
-        <img src="/icon-512x512.png" width="32" height="32" alt="icon-512x512.png">
+        <img src="./icon-512x512.png" width="32" height="32" alt="icon-512x512.png">
         <span>icon-512x512.png (PWA)</span>
         <span class="status" id="icon-512">檢查中...</span>
     </div>
     
     <div class="icon-test">
-        <img src="/og-image.png" width="32" height="32" alt="og-image.png">
+        <img src="./og-image.png" width="32" height="32" alt="og-image.png">
         <span>og-image.png (Open Graph)</span>
         <span class="status" id="og-image">檢查中...</span>
     </div>
@@ -89,14 +89,14 @@
     <script>
         // 檢查每個圖片的載入狀態
         const icons = [
-            { id: 'favicon-ico', src: '/favicon.ico' },
-            { id: 'favicon-svg', src: '/favicon.svg' },
-            { id: 'apple-touch', src: '/apple-touch-icon.png' },
-            { id: 'favicon-16', src: '/favicon-16x16.png' },
-            { id: 'favicon-32', src: '/favicon-32x32.png' },
-            { id: 'icon-192', src: '/icon-192x192.png' },
-            { id: 'icon-512', src: '/icon-512x512.png' },
-            { id: 'og-image', src: '/og-image.png' }
+            { id: 'favicon-ico', src: './favicon.ico' },
+            { id: 'favicon-svg', src: './favicon.svg' },
+            { id: 'apple-touch', src: './apple-touch-icon.png' },
+            { id: 'favicon-16', src: './favicon-16x16.png' },
+            { id: 'favicon-32', src: './favicon-32x32.png' },
+            { id: 'icon-192', src: './icon-192x192.png' },
+            { id: 'icon-512', src: './icon-512x512.png' },
+            { id: 'og-image', src: './og-image.png' }
         ];
 
         icons.forEach(icon => {
@@ -117,7 +117,7 @@
         });
 
         // 檢查 manifest 檔案
-        fetch('/site.webmanifest')
+        fetch('./site.webmanifest')
             .then(response => {
                 if (response.ok) {
                     console.log('✅ site.webmanifest 載入成功');
