@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: 'Pokémon GO 好友列表',
     images: [
       {
-        url: '/PokemonGOFriend/og-image.jpg',
+        url: 'https://cookieseventeen.github.io/PokemonGOFriend/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Pokémon GO 好友列表 - 快速加好友平台',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pokémon GO 好友列表 - 快速加好友 QR Code 分享平台',
     description: '最完整的 Pokémon GO 好友 QR Code 分享平台！快速掃描 QR Code 加好友，與全球訓練家交換寶可夢、送禮物、一起 Raid。',
-    images: ['/PokemonGOFriend/og-image.jpg'],
+    images: ['https://cookieseventeen.github.io/PokemonGOFriend/og-image.png'],
   },
   robots: {
     index: true,
@@ -79,6 +79,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // 根據環境決定 basePath
+  const basePath = process.env.NODE_ENV === 'production' ? '/PokemonGOFriend' : '';
+  
   return (
     <html lang="zh-TW">
       <head>
@@ -91,11 +94,11 @@ export default function RootLayout({
         <meta name="rating" content="general" />
         
         {/* 網站圖示 */}
-        <link rel="icon" href="/PokemonGOFriend/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/PokemonGOFriend/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/PokemonGOFriend/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/PokemonGOFriend/favicon-16x16.png" />
-        <link rel="manifest" href="/PokemonGOFriend/site.webmanifest" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         
         {/* 預載入重要資源 */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

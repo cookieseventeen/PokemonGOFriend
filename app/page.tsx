@@ -110,26 +110,6 @@ export default function HomePage() {
           </p>
         </header>
 
-        {/* SEO 優化的功能介紹區塊 */}
-        <section className="mb-8 bg-white/10 backdrop-blur-sm rounded-lg p-6">
-          <h3 className="text-xl font-semibold text-white mb-4 text-center">
-            為什麼選擇我們的好友平台？
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-white/80">
-            <div className="text-center">
-              <h4 className="font-medium mb-2">🔄 快速交換</h4>
-              <p className="text-sm">與好友交換稀有寶可夢，完成圖鑑收集</p>
-            </div>
-            <div className="text-center">
-              <h4 className="font-medium mb-2">🎁 每日禮物</h4>
-              <p className="text-sm">每天與好友互送禮物，獲得道具和星塵</p>
-            </div>
-            <div className="text-center">
-              <h4 className="font-medium mb-2">⚔️ Raid 團戰</h4>
-              <p className="text-sm">邀請好友參加 Raid，挑戰強力寶可夢</p>
-            </div>
-          </div>
-        </section>
 
         {/* 排序控制項 */}
         {sortedTrainers.length > 0 && (
