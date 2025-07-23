@@ -1,10 +1,77 @@
 import type { Metadata } from 'next';
 import '@/styles/globals.css';
 import Script from 'next/script';
+import Navigation from '@/components/Navigation';
 
 export const metadata: Metadata = {
-  title: 'Pokémon GO 好友列表',
-  description: '掃描 QR Code 快速加好友',
+  title: {
+    default: 'Pokémon GO 好友列表 - 快速加好友 QR Code 分享平台',
+    template: '%s | Pokémon GO 好友列表'
+  },
+  description: '最完整的 Pokémon GO 好友 QR Code 分享平台！快速掃描 QR Code 加好友，與全球訓練家交換寶可夢、送禮物、一起 Raid。立即加入我們的好友網路！',
+  keywords: [
+    'Pokémon GO',
+    '寶可夢GO',
+    '好友',
+    'QR Code',
+    '訓練家',
+    '加好友',
+    '交換',
+    '禮物',
+    'Raid',
+    '寶可夢',
+    'Pokemon',
+    '朋友代碼',
+    '邀請碼'
+  ],
+  authors: [{ name: 'Pokémon GO 好友列表' }],
+  creator: 'Pokémon GO 好友列表',
+  publisher: 'Pokémon GO 好友列表',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://cookieseventeen.github.io'),
+  alternates: {
+    canonical: '/PokemonGOFriend',
+  },
+  openGraph: {
+    title: 'Pokémon GO 好友列表 - 快速加好友 QR Code 分享平台',
+    description: '最完整的 Pokémon GO 好友 QR Code 分享平台！快速掃描 QR Code 加好友，與全球訓練家交換寶可夢、送禮物、一起 Raid。',
+    url: 'https://cookieseventeen.github.io/PokemonGOFriend',
+    siteName: 'Pokémon GO 好友列表',
+    images: [
+      {
+        url: '/PokemonGOFriend/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Pokémon GO 好友列表 - 快速加好友平台',
+      },
+    ],
+    locale: 'zh_TW',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pokémon GO 好友列表 - 快速加好友 QR Code 分享平台',
+    description: '最完整的 Pokémon GO 好友 QR Code 分享平台！快速掃描 QR Code 加好友，與全球訓練家交換寶可夢、送禮物、一起 Raid。',
+    images: ['/PokemonGOFriend/og-image.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code',
+  },
 };
 
 export default function RootLayout({
@@ -15,6 +82,48 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <head>
+        {/* 預設 SEO meta tags */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="zh-TW" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        
+        {/* 網站圖示 */}
+        <link rel="icon" href="/PokemonGOFriend/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/PokemonGOFriend/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/PokemonGOFriend/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/PokemonGOFriend/favicon-16x16.png" />
+        <link rel="manifest" href="/PokemonGOFriend/site.webmanifest" />
+        
+        {/* 預載入重要資源 */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        
+        {/* JSON-LD 結構化資料 */}
+        <Script id="json-ld" type="application/ld+json" strategy="afterInteractive">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Pokémon GO 好友列表",
+              "description": "最完整的 Pokémon GO 好友 QR Code 分享平台",
+              "url": "https://cookieseventeen.github.io/PokemonGOFriend",
+              "sameAs": [],
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://cookieseventeen.github.io/PokemonGOFriend?search={search_term_string}",
+                "query-input": "required name=search_term_string"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Pokémon GO 好友列表"
+              }
+            }
+          `}
+        </Script>
+
         {/* Google tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-W6VJ080652"
@@ -29,7 +138,10 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body>{children}</body>
+      <body>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
