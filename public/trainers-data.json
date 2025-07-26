@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-07-25T00:18:39.670Z",
-  "totalTrainers": 318,
+  "timestamp": "2025-07-26T00:17:59.201Z",
+  "totalTrainers": 321,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1591,6 +1591,21 @@
       "name": "Petris1989",
       "id": "126067101232",
       "timestamp": "2025-07-24T20:59:48.000Z"
+    },
+    {
+      "name": "Chiang811228",
+      "id": "467772093030",
+      "timestamp": "2025-07-25T16:27:56.000Z"
+    },
+    {
+      "name": "gdggdhdcuecju",
+      "id": "587197113659",
+      "timestamp": "2025-07-25T21:10:41.000Z"
+    },
+    {
+      "name": "MipuMipu420138",
+      "id": "483165291878",
+      "timestamp": "2025-07-25T23:59:28.000Z"
     }
   ]
 }
