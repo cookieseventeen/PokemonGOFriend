@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-07-26T00:17:59.201Z",
-  "totalTrainers": 321,
+  "timestamp": "2025-07-27T00:20:31.839Z",
+  "totalTrainers": 324,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1606,6 +1606,21 @@
       "name": "MipuMipu420138",
       "id": "483165291878",
       "timestamp": "2025-07-25T23:59:28.000Z"
+    },
+    {
+      "name": "Kuoyao",
+      "id": "197357169497",
+      "timestamp": "2025-07-26T13:10:30.000Z"
+    },
+    {
+      "name": "chiiiiichi7",
+      "id": "977528284270",
+      "timestamp": "2025-07-26T17:33:47.000Z"
+    },
+    {
+      "name": "hsnu9878",
+      "id": "531206583626",
+      "timestamp": "2025-07-26T22:34:27.000Z"
     }
   ]
 }
