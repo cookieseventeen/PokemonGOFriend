@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-07-28T00:20:02.192Z",
-  "totalTrainers": 324,
+  "timestamp": "2025-07-29T00:20:24.350Z",
+  "totalTrainers": 325,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1621,6 +1621,11 @@
       "name": "hsnu9878",
       "id": "531206583626",
       "timestamp": "2025-07-26T22:34:27.000Z"
+    },
+    {
+      "name": "FuturesTang",
+      "id": "646867372432",
+      "timestamp": "2025-07-28T09:54:37.000Z"
     }
   ]
 }
