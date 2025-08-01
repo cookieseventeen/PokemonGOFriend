@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-07-31T00:18:27.459Z",
-  "totalTrainers": 332,
+  "timestamp": "2025-08-01T00:21:14.416Z",
+  "totalTrainers": 333,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1661,6 +1661,11 @@
       "name": "Mollychia",
       "id": "848580318495",
       "timestamp": "2025-07-31T03:04:32.000Z"
+    },
+    {
+      "name": "kevinpupu",
+      "id": "629950087288",
+      "timestamp": "2025-07-31T20:41:12.000Z"
     }
   ]
 }
