@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-03T00:20:53.308Z",
-  "totalTrainers": 339,
+  "timestamp": "2025-08-04T00:20:33.074Z",
+  "totalTrainers": 340,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1696,6 +1696,11 @@
       "name": "FireCID713",
       "id": "867278231323",
       "timestamp": "2025-08-02T19:39:04.000Z"
+    },
+    {
+      "name": "SmallYaIOU3",
+      "id": "032652989521",
+      "timestamp": "2025-08-04T01:03:03.000Z"
     }
   ]
 }
