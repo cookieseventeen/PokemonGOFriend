@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-06T00:18:51.891Z",
-  "totalTrainers": 350,
+  "timestamp": "2025-08-07T00:19:09.612Z",
+  "totalTrainers": 355,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1751,6 +1751,31 @@
       "name": "Enjoyhandsome2",
       "id": "732061543456",
       "timestamp": "2025-08-06T01:33:32.000Z"
+    },
+    {
+      "name": "EkerHuang2",
+      "id": "622449928309",
+      "timestamp": "2025-08-06T11:27:29.000Z"
+    },
+    {
+      "name": "riddle",
+      "id": "264954807082",
+      "timestamp": "2025-08-06T14:31:46.000Z"
+    },
+    {
+      "name": "1997jie",
+      "id": "704571175181",
+      "timestamp": "2025-08-06T15:33:00.000Z"
+    },
+    {
+      "name": "Owen344487",
+      "id": "166140936156",
+      "timestamp": "2025-08-06T19:22:13.000Z"
+    },
+    {
+      "name": "ChuangLunLun",
+      "id": "673755971298",
+      "timestamp": "2025-08-07T00:54:15.000Z"
     }
   ]
 }
