@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-07T00:19:09.612Z",
-  "totalTrainers": 355,
+  "timestamp": "2025-08-08T00:18:51.843Z",
+  "totalTrainers": 358,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1776,6 +1776,21 @@
       "name": "ChuangLunLun",
       "id": "673755971298",
       "timestamp": "2025-08-07T00:54:15.000Z"
+    },
+    {
+      "name": "Abram0108",
+      "id": "971044534985",
+      "timestamp": "2025-08-07T09:15:23.000Z"
+    },
+    {
+      "name": "u06cji3",
+      "id": "925562294268",
+      "timestamp": "2025-08-07T23:03:48.000Z"
+    },
+    {
+      "name": "Barayesk100976",
+      "id": "691674712357",
+      "timestamp": "2025-08-08T01:32:12.000Z"
     }
   ]
 }
