@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-08T00:18:51.843Z",
-  "totalTrainers": 358,
+  "timestamp": "2025-08-09T00:17:15.027Z",
+  "totalTrainers": 360,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1791,6 +1791,16 @@
       "name": "Barayesk100976",
       "id": "691674712357",
       "timestamp": "2025-08-08T01:32:12.000Z"
+    },
+    {
+      "name": "Okayz75",
+      "id": "408322384092",
+      "timestamp": "2025-08-08T10:05:57.000Z"
+    },
+    {
+      "name": "Pigletpiglet19",
+      "id": "422952879596",
+      "timestamp": "2025-08-08T10:08:32.000Z"
     }
   ]
 }
