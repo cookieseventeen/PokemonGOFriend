@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-10T00:20:17.923Z",
-  "totalTrainers": 365,
+  "timestamp": "2025-08-11T00:19:32.005Z",
+  "totalTrainers": 368,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1826,6 +1826,21 @@
       "name": "1109Gray",
       "id": "588228307525",
       "timestamp": "2025-08-09T20:13:45.000Z"
+    },
+    {
+      "name": "YJboss0304",
+      "id": "812191818735",
+      "timestamp": "2025-08-10T15:39:14.000Z"
+    },
+    {
+      "name": "ZeroFourSeven",
+      "id": "095230994308",
+      "timestamp": "2025-08-10T20:02:00.000Z"
+    },
+    {
+      "name": "RyanGLS114514",
+      "id": "582602526731",
+      "timestamp": "2025-08-11T02:49:47.000Z"
     }
   ]
 }
