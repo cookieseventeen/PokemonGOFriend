@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-11T00:19:32.005Z",
-  "totalTrainers": 368,
+  "timestamp": "2025-08-12T00:17:46.945Z",
+  "totalTrainers": 370,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1841,6 +1841,16 @@
       "name": "RyanGLS114514",
       "id": "582602526731",
       "timestamp": "2025-08-11T02:49:47.000Z"
+    },
+    {
+      "name": "KuroKamiO3O",
+      "id": "653855174133",
+      "timestamp": "2025-08-11T15:13:23.000Z"
+    },
+    {
+      "name": "Kokoronobake",
+      "id": "008251122569",
+      "timestamp": "2025-08-12T00:39:26.000Z"
     }
   ]
 }
