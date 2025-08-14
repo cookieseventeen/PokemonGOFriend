@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-13T00:17:52.527Z",
-  "totalTrainers": 372,
+  "timestamp": "2025-08-14T00:17:55.787Z",
+  "totalTrainers": 374,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1861,6 +1861,16 @@
       "name": "Coby949334",
       "id": "272680393943",
       "timestamp": "2025-08-13T06:48:59.000Z"
+    },
+    {
+      "name": "Jason Chic",
+      "id": "573306101969",
+      "timestamp": "2025-08-13T12:40:56.000Z"
+    },
+    {
+      "name": "Yenting0823",
+      "id": "979714434507",
+      "timestamp": "2025-08-13T17:27:47.000Z"
     }
   ]
 }
