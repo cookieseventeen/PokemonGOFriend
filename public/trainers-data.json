@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-15T00:18:22.707Z",
-  "totalTrainers": 380,
+  "timestamp": "2025-08-16T00:17:01.078Z",
+  "totalTrainers": 381,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1901,6 +1901,11 @@
       "name": "Joshww",
       "id": "902666284181",
       "timestamp": "2025-08-15T02:52:55.000Z"
+    },
+    {
+      "name": "Rizzle1152432",
+      "id": "758211690401",
+      "timestamp": "2025-08-15T23:23:00.000Z"
     }
   ]
 }
