@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-19T00:17:23.925Z",
-  "totalTrainers": 388,
+  "timestamp": "2025-08-20T00:16:44.284Z",
+  "totalTrainers": 389,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1941,6 +1941,11 @@
       "name": "Rukawalen",
       "id": "751736200151",
       "timestamp": "2025-08-19T01:27:58.000Z"
+    },
+    {
+      "name": "PteamDz000534J",
+      "id": "004963436175",
+      "timestamp": "2025-08-19T11:38:32.000Z"
     }
   ]
 }
