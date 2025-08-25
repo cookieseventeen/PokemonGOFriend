@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-24T00:19:00.520Z",
-  "totalTrainers": 396,
+  "timestamp": "2025-08-25T00:18:07.100Z",
+  "totalTrainers": 401,
   "trainers": [
     {
       "name": "Hawks10069",
@@ -1981,6 +1981,31 @@
       "name": "GrandpaGolfer",
       "id": "701517987667",
       "timestamp": "2025-08-23T21:18:06.000Z"
+    },
+    {
+      "name": "Norman3120",
+      "id": "166382634271",
+      "timestamp": "2025-08-24T11:47:05.000Z"
+    },
+    {
+      "name": "Siribaby0612",
+      "id": "741880646636",
+      "timestamp": "2025-08-24T20:32:30.000Z"
+    },
+    {
+      "name": "sdfq12654",
+      "id": "990890559291",
+      "timestamp": "2025-08-24T21:50:27.000Z"
+    },
+    {
+      "name": "eattttttttting",
+      "id": "335951167925",
+      "timestamp": "2025-08-24T22:12:31.000Z"
+    },
+    {
+      "name": "greentea96134",
+      "id": "575541483218",
+      "timestamp": "2025-08-25T06:20:13.000Z"
     }
   ]
 }
