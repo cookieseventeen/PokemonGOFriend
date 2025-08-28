@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-27T00:17:05.547Z",
-  "totalTrainers": 206,
+  "timestamp": "2025-08-28T00:16:49.897Z",
+  "totalTrainers": 214,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -1031,6 +1031,46 @@
       "name": "LucyYukiMei",
       "id": "787726544621",
       "timestamp": "2025-08-27T00:52:02.000Z"
+    },
+    {
+      "name": "Liu09211229",
+      "id": "820043687161",
+      "timestamp": "2025-08-27T11:18:17.000Z"
+    },
+    {
+      "name": "Zoodasa77",
+      "id": "926280716259",
+      "timestamp": "2025-08-27T13:10:55.000Z"
+    },
+    {
+      "name": "IanJhou687",
+      "id": "764341802763",
+      "timestamp": "2025-08-27T13:21:14.000Z"
+    },
+    {
+      "name": "tjguo",
+      "id": "499022489550",
+      "timestamp": "2025-08-27T13:51:07.000Z"
+    },
+    {
+      "name": "oqTJpo",
+      "id": "808815912968",
+      "timestamp": "2025-08-27T13:52:20.000Z"
+    },
+    {
+      "name": "Vickyyeungyeung",
+      "id": "100941703737",
+      "timestamp": "2025-08-27T20:40:38.000Z"
+    },
+    {
+      "name": "YohoTypeI",
+      "id": "925038145381",
+      "timestamp": "2025-08-27T22:35:48.000Z"
+    },
+    {
+      "name": "bluemoonstar12",
+      "id": "999592496074",
+      "timestamp": "2025-08-28T06:40:52.000Z"
     }
   ]
 }
