@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-28T00:16:49.897Z",
-  "totalTrainers": 214,
+  "timestamp": "2025-08-29T00:16:45.484Z",
+  "totalTrainers": 226,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -1071,6 +1071,66 @@
       "name": "bluemoonstar12",
       "id": "999592496074",
       "timestamp": "2025-08-28T06:40:52.000Z"
+    },
+    {
+      "name": "TriYi001",
+      "id": "480268961407",
+      "timestamp": "2025-08-28T11:01:43.000Z"
+    },
+    {
+      "name": "jipinfan",
+      "id": "969392187845",
+      "timestamp": "2025-08-28T11:28:02.000Z"
+    },
+    {
+      "name": "Tension878787",
+      "id": "414657279165",
+      "timestamp": "2025-08-28T15:52:13.000Z"
+    },
+    {
+      "name": "Napierkid1412",
+      "id": "759965920055",
+      "timestamp": "2025-08-28T17:08:37.000Z"
+    },
+    {
+      "name": "MyMumEatsDogs",
+      "id": "598009216017",
+      "timestamp": "2025-08-28T17:10:20.000Z"
+    },
+    {
+      "name": "TeemoHeero",
+      "id": "825705151276",
+      "timestamp": "2025-08-28T18:07:00.000Z"
+    },
+    {
+      "name": "PKwall",
+      "id": "137363166635",
+      "timestamp": "2025-08-29T04:03:55.000Z"
+    },
+    {
+      "name": "star032302",
+      "id": "450956917009",
+      "timestamp": "2025-08-29T04:04:48.000Z"
+    },
+    {
+      "name": "star29032302",
+      "id": "256312228197",
+      "timestamp": "2025-08-29T04:05:27.000Z"
+    },
+    {
+      "name": "MilesTung",
+      "id": "985841383895",
+      "timestamp": "2025-08-29T04:09:21.000Z"
+    },
+    {
+      "name": "RionCHE",
+      "id": "505176059470",
+      "timestamp": "2025-08-29T06:37:09.000Z"
+    },
+    {
+      "name": "rightwayz",
+      "id": "992668634673",
+      "timestamp": "2025-08-29T08:14:58.000Z"
     }
   ]
 }
