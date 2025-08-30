@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-08-29T00:16:45.484Z",
-  "totalTrainers": 226,
+  "timestamp": "2025-08-30T00:16:07.976Z",
+  "totalTrainers": 230,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -1131,6 +1131,26 @@
       "name": "rightwayz",
       "id": "992668634673",
       "timestamp": "2025-08-29T08:14:58.000Z"
+    },
+    {
+      "name": "TofuYoo",
+      "id": "786640636001",
+      "timestamp": "2025-08-29T11:44:41.000Z"
+    },
+    {
+      "name": "JiSyunSyun",
+      "id": "089515962433",
+      "timestamp": "2025-08-29T16:17:59.000Z"
+    },
+    {
+      "name": "chihuahua407952",
+      "id": "982648976977",
+      "timestamp": "2025-08-29T22:42:36.000Z"
+    },
+    {
+      "name": "Fy12eb",
+      "id": "526996915745",
+      "timestamp": "2025-08-30T00:50:25.000Z"
     }
   ]
 }
