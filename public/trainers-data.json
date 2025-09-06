@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-09-05T00:16:35.398Z",
-  "totalTrainers": 264,
+  "timestamp": "2025-09-06T00:15:56.343Z",
+  "totalTrainers": 271,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -1321,6 +1321,41 @@
       "name": "kasewu",
       "id": "597143149609",
       "timestamp": "2025-09-04T21:50:22.000Z"
+    },
+    {
+      "name": "Silentwolf0139",
+      "id": "256236377265",
+      "timestamp": "2025-09-05T11:10:52.000Z"
+    },
+    {
+      "name": "Wordboy0220",
+      "id": "114365220059",
+      "timestamp": "2025-09-05T13:35:15.000Z"
+    },
+    {
+      "name": "FireCID713",
+      "id": "867278231323",
+      "timestamp": "2025-09-05T16:00:22.000Z"
+    },
+    {
+      "name": "DSEEEE666",
+      "id": "247022652942",
+      "timestamp": "2025-09-05T17:58:57.000Z"
+    },
+    {
+      "name": "lynntu",
+      "id": "848200062099",
+      "timestamp": "2025-09-05T17:59:35.000Z"
+    },
+    {
+      "name": "fan2tw",
+      "id": "366274735303",
+      "timestamp": "2025-09-06T00:57:17.000Z"
+    },
+    {
+      "name": "kasewutw",
+      "id": "248531972093",
+      "timestamp": "2025-09-06T06:56:36.000Z"
     }
   ]
 }
