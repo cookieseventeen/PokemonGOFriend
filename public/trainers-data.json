@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-09-12T00:16:36.080Z",
-  "totalTrainers": 320,
+  "timestamp": "2025-09-13T00:15:23.757Z",
+  "totalTrainers": 322,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -1601,6 +1601,16 @@
       "name": "Hsuoscar123",
       "id": "949151778029",
       "timestamp": "2025-09-11T23:23:06.000Z"
+    },
+    {
+      "name": "Cowcowsong",
+      "id": "675762462028",
+      "timestamp": "2025-09-12T23:06:40.000Z"
+    },
+    {
+      "name": "DustinHsu",
+      "id": "888792977361",
+      "timestamp": "2025-09-13T00:52:48.000Z"
     }
   ]
 }
