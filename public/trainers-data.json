@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-09-15T00:17:59.535Z",
-  "totalTrainers": 328,
+  "timestamp": "2025-09-16T00:15:57.021Z",
+  "totalTrainers": 331,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -1641,6 +1641,21 @@
       "name": "Ianianianian00",
       "id": "787108786206",
       "timestamp": "2025-09-15T07:56:34.000Z"
+    },
+    {
+      "name": "Kirabox001",
+      "id": "665407347390",
+      "timestamp": "2025-09-15T12:25:39.000Z"
+    },
+    {
+      "name": "log2246",
+      "id": "663735646309",
+      "timestamp": "2025-09-15T14:00:37.000Z"
+    },
+    {
+      "name": "g1723568",
+      "id": "600686645507",
+      "timestamp": "2025-09-15T21:48:00.000Z"
     }
   ]
 }
