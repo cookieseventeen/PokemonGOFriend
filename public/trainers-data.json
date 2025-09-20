@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-09-19T00:16:37.087Z",
-  "totalTrainers": 349,
+  "timestamp": "2025-09-20T00:15:40.950Z",
+  "totalTrainers": 352,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -1746,6 +1746,21 @@
       "name": "SkywalkerLht3",
       "id": "719619649783",
       "timestamp": "2025-09-19T00:46:02.000Z"
+    },
+    {
+      "name": "BaconDog1994",
+      "id": "797997554772",
+      "timestamp": "2025-09-19T16:11:54.000Z"
+    },
+    {
+      "name": "SuperNori12",
+      "id": "980396722792",
+      "timestamp": "2025-09-19T18:10:36.000Z"
+    },
+    {
+      "name": "Zoey116010",
+      "id": "671280908426",
+      "timestamp": "2025-09-19T22:17:32.000Z"
     }
   ]
 }
