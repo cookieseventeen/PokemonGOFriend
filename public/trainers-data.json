@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-09-30T00:16:46.331Z",
-  "totalTrainers": 399,
+  "timestamp": "2025-10-01T00:19:17.654Z",
+  "totalTrainers": 400,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -1996,6 +1996,11 @@
       "name": "NICKCYD117",
       "id": "898083550450",
       "timestamp": "2025-09-30T01:18:57.000Z"
+    },
+    {
+      "name": "circleSYU",
+      "id": "172951680896",
+      "timestamp": "2025-09-30T17:31:37.000Z"
     }
   ]
 }
