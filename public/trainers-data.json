@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-10-04T00:15:45.344Z",
-  "totalTrainers": 418,
+  "timestamp": "2025-10-05T00:18:01.772Z",
+  "totalTrainers": 421,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2091,6 +2091,21 @@
       "name": "Chimeihui",
       "id": "661764493510",
       "timestamp": "2025-10-04T08:11:05.000Z"
+    },
+    {
+      "name": "Shootingstarkit",
+      "id": "615832037165",
+      "timestamp": "2025-10-04T12:11:56.000Z"
+    },
+    {
+      "name": "ZionJelico",
+      "id": "754572953499",
+      "timestamp": "2025-10-05T00:53:39.000Z"
+    },
+    {
+      "name": "winedavid",
+      "id": "538910653379",
+      "timestamp": "2025-10-05T06:54:05.000Z"
     }
   ]
 }
