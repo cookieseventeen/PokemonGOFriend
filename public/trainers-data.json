@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-10-05T00:18:01.772Z",
-  "totalTrainers": 421,
+  "timestamp": "2025-10-06T00:16:54.776Z",
+  "totalTrainers": 422,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2106,6 +2106,11 @@
       "name": "winedavid",
       "id": "538910653379",
       "timestamp": "2025-10-05T06:54:05.000Z"
+    },
+    {
+      "name": "Assyouarebig",
+      "id": "216204071040",
+      "timestamp": "2025-10-05T15:09:11.000Z"
     }
   ]
 }
