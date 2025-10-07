@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-10-06T00:16:54.776Z",
-  "totalTrainers": 422,
+  "timestamp": "2025-10-07T00:16:42.923Z",
+  "totalTrainers": 427,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2111,6 +2111,31 @@
       "name": "Assyouarebig",
       "id": "216204071040",
       "timestamp": "2025-10-05T15:09:11.000Z"
+    },
+    {
+      "name": "Jasper08624",
+      "id": "513227576556",
+      "timestamp": "2025-10-06T10:26:45.000Z"
+    },
+    {
+      "name": "Mulvi",
+      "id": "700376395686",
+      "timestamp": "2025-10-06T13:18:00.000Z"
+    },
+    {
+      "name": "1statfunny",
+      "id": "786769022098",
+      "timestamp": "2025-10-06T21:42:11.000Z"
+    },
+    {
+      "name": "Banetry",
+      "id": "351297489143",
+      "timestamp": "2025-10-07T00:55:28.000Z"
+    },
+    {
+      "name": "LZJ54068",
+      "id": "771189681940",
+      "timestamp": "2025-10-07T06:22:04.000Z"
     }
   ]
 }
