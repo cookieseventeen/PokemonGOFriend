@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-10-17T00:17:12.799Z",
-  "totalTrainers": 456,
+  "timestamp": "2025-10-18T00:15:38.903Z",
+  "totalTrainers": 466,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2281,6 +2281,56 @@
       "name": "Usagiwula",
       "id": "186592512606",
       "timestamp": "2025-10-17T03:25:16.000Z"
+    },
+    {
+      "name": "ezw0803",
+      "id": "497843974548",
+      "timestamp": "2025-10-17T08:42:08.000Z"
+    },
+    {
+      "name": "AaronJudge945",
+      "id": "019829559729",
+      "timestamp": "2025-10-17T12:31:42.000Z"
+    },
+    {
+      "name": "SUNPINEAPPLE",
+      "id": "669012519201",
+      "timestamp": "2025-10-17T15:55:40.000Z"
+    },
+    {
+      "name": "AllisonBao1110",
+      "id": "487128091234",
+      "timestamp": "2025-10-17T21:55:55.000Z"
+    },
+    {
+      "name": "Cashi9487",
+      "id": "809926225383",
+      "timestamp": "2025-10-17T23:09:59.000Z"
+    },
+    {
+      "name": "Bluepterosau990",
+      "id": "095118817844",
+      "timestamp": "2025-10-18T03:38:08.000Z"
+    },
+    {
+      "name": "corgiTaiwam",
+      "id": "038822071069",
+      "timestamp": "2025-10-18T04:24:39.000Z"
+    },
+    {
+      "name": "CorgiTaiwan",
+      "id": "038822071069",
+      "timestamp": "2025-10-18T04:26:35.000Z"
+    },
+    {
+      "name": "aamypepetw",
+      "id": "140551655551",
+      "timestamp": "2025-10-18T04:43:45.000Z"
+    },
+    {
+      "name": "Nextfighter1225",
+      "id": "961355650019",
+      "timestamp": "2025-10-18T04:46:13.000Z"
     }
   ]
 }
