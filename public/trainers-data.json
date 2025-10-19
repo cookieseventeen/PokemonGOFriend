@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-10-18T00:15:38.903Z",
-  "totalTrainers": 466,
+  "timestamp": "2025-10-19T00:18:50.747Z",
+  "totalTrainers": 468,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2331,6 +2331,16 @@
       "name": "Nextfighter1225",
       "id": "961355650019",
       "timestamp": "2025-10-18T04:46:13.000Z"
+    },
+    {
+      "name": "Metapod01",
+      "id": "812033806625",
+      "timestamp": "2025-10-18T15:24:19.000Z"
+    },
+    {
+      "name": "Siyu354",
+      "id": "990890559291",
+      "timestamp": "2025-10-18T21:28:59.000Z"
     }
   ]
 }
