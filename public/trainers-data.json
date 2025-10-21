@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-10-20T00:18:26.284Z",
-  "totalTrainers": 477,
+  "timestamp": "2025-10-21T00:17:05.449Z",
+  "totalTrainers": 480,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2386,6 +2386,21 @@
       "name": "GAYinTaiwan",
       "id": "491504394381",
       "timestamp": "2025-10-20T03:31:58.000Z"
+    },
+    {
+      "name": "BuffettZ",
+      "id": "681503266965",
+      "timestamp": "2025-10-20T10:21:12.000Z"
+    },
+    {
+      "name": "mark77131",
+      "id": "137038130275",
+      "timestamp": "2025-10-20T10:54:33.000Z"
+    },
+    {
+      "name": "maomoww",
+      "id": "576394026337",
+      "timestamp": "2025-10-20T15:57:22.000Z"
     }
   ]
 }
