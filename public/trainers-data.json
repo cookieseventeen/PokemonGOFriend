@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-10-24T00:15:32.939Z",
-  "totalTrainers": 492,
+  "timestamp": "2025-10-25T00:16:37.796Z",
+  "totalTrainers": 495,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2461,6 +2461,21 @@
       "name": "BlackTeaRoll",
       "id": "930839333963",
       "timestamp": "2025-10-23T19:38:57.000Z"
+    },
+    {
+      "name": "Minigodzz",
+      "id": "327746593360",
+      "timestamp": "2025-10-24T16:13:56.000Z"
+    },
+    {
+      "name": "ASFJeff2000",
+      "id": "155600783324",
+      "timestamp": "2025-10-24T18:06:28.000Z"
+    },
+    {
+      "name": "mivac06",
+      "id": "050304807204",
+      "timestamp": "2025-10-24T23:35:36.000Z"
     }
   ]
 }
