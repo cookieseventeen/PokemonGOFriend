@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-10-28T00:16:30.055Z",
-  "totalTrainers": 507,
+  "timestamp": "2025-10-29T00:17:51.691Z",
+  "totalTrainers": 509,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2536,6 +2536,16 @@
       "name": "Star SkyPkm",
       "id": "970994346509",
       "timestamp": "2025-10-27T21:36:15.000Z"
+    },
+    {
+      "name": "TianTianHi",
+      "id": "169195958269",
+      "timestamp": "2025-10-28T17:01:07.000Z"
+    },
+    {
+      "name": "Tyni77",
+      "id": "827268839025",
+      "timestamp": "2025-10-28T22:18:21.000Z"
     }
   ]
 }
