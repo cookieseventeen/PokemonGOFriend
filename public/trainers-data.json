@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-11-01T00:19:19.628Z",
-  "totalTrainers": 517,
+  "timestamp": "2025-11-02T00:18:46.203Z",
+  "totalTrainers": 519,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2586,6 +2586,16 @@
       "name": "RushZve",
       "id": "587795531729",
       "timestamp": "2025-10-31T23:42:18.000Z"
+    },
+    {
+      "name": "HSU012",
+      "id": "187371939690",
+      "timestamp": "2025-11-01T13:52:53.000Z"
+    },
+    {
+      "name": "honeycargobb",
+      "id": "560671465762",
+      "timestamp": "2025-11-01T17:09:53.000Z"
     }
   ]
 }
