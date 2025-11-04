@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-11-03T00:18:31.379Z",
-  "totalTrainers": 526,
+  "timestamp": "2025-11-04T00:17:16.187Z",
+  "totalTrainers": 528,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2631,6 +2631,16 @@
       "name": "koaoboco",
       "id": "460292759040",
       "timestamp": "2025-11-02T23:15:23.000Z"
+    },
+    {
+      "name": "Sakula0517",
+      "id": "867007998669",
+      "timestamp": "2025-11-03T12:50:17.000Z"
+    },
+    {
+      "name": "hd2375",
+      "id": "099743006798",
+      "timestamp": "2025-11-03T13:04:30.000Z"
     }
   ]
 }
