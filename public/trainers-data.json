@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-11-11T00:18:04.719Z",
-  "totalTrainers": 552,
+  "timestamp": "2025-11-12T00:17:58.246Z",
+  "totalTrainers": 554,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2761,6 +2761,16 @@
       "name": "lily00007777",
       "id": "219683719943",
       "timestamp": "2025-11-10T23:50:17.000Z"
+    },
+    {
+      "name": "ting410835",
+      "id": "488348027206",
+      "timestamp": "2025-11-11T19:16:48.000Z"
+    },
+    {
+      "name": "fallingmoon1108",
+      "id": "938813171796",
+      "timestamp": "2025-11-12T00:36:25.000Z"
     }
   ]
 }
