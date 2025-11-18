@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-11-17T00:18:02.977Z",
-  "totalTrainers": 576,
+  "timestamp": "2025-11-18T00:17:58.361Z",
+  "totalTrainers": 578,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2881,6 +2881,16 @@
       "name": "Kinita",
       "id": "179675859422",
       "timestamp": "2025-11-16T18:48:02.000Z"
+    },
+    {
+      "name": "upstopWu",
+      "id": "807886266971",
+      "timestamp": "2025-11-17T18:07:45.000Z"
+    },
+    {
+      "name": "b147369c",
+      "id": "758559985172",
+      "timestamp": "2025-11-18T01:34:31.000Z"
     }
   ]
 }
