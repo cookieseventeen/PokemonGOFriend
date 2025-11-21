@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-11-20T00:17:45.814Z",
-  "totalTrainers": 586,
+  "timestamp": "2025-11-21T00:17:22.231Z",
+  "totalTrainers": 590,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2931,6 +2931,26 @@
       "name": "ding0819",
       "id": "335624019726",
       "timestamp": "2025-11-20T08:13:32.000Z"
+    },
+    {
+      "name": "iFaMiChani",
+      "id": "732493061288",
+      "timestamp": "2025-11-20T08:44:40.000Z"
+    },
+    {
+      "name": "JimmyHsueh",
+      "id": "417553336808",
+      "timestamp": "2025-11-20T12:51:32.000Z"
+    },
+    {
+      "name": "Buckskinbeer",
+      "id": "740645215767",
+      "timestamp": "2025-11-20T14:37:55.000Z"
+    },
+    {
+      "name": "tryyyit",
+      "id": "707447888619",
+      "timestamp": "2025-11-21T00:02:54.000Z"
     }
   ]
 }
