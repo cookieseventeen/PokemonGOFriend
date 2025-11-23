@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-11-22T00:16:53.369Z",
-  "totalTrainers": 591,
+  "timestamp": "2025-11-23T00:20:08.981Z",
+  "totalTrainers": 593,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -2956,6 +2956,16 @@
       "name": "LewisYuki",
       "id": "910609580959",
       "timestamp": "2025-11-22T00:47:54.000Z"
+    },
+    {
+      "name": "Mosin9319",
+      "id": "683816025248",
+      "timestamp": "2025-11-22T16:28:28.000Z"
+    },
+    {
+      "name": "Ky20160707",
+      "id": "386469991729",
+      "timestamp": "2025-11-23T02:08:35.000Z"
     }
   ]
 }
