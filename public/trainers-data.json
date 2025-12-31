@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-12-30T00:18:38.011Z",
-  "totalTrainers": 613,
+  "timestamp": "2025-12-31T00:19:32.953Z",
+  "totalTrainers": 614,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -3066,6 +3066,11 @@
       "name": "S916228Mo",
       "id": "470593296703",
       "timestamp": "2025-12-21T06:31:32.000Z"
+    },
+    {
+      "name": "BiNNNNNoN",
+      "id": "854750213360",
+      "timestamp": "2025-12-30T10:15:18.000Z"
     }
   ]
 }
