@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-01-06T00:19:09.074Z",
-  "totalTrainers": 616,
+  "timestamp": "2026-01-07T00:17:58.304Z",
+  "totalTrainers": 620,
   "trainers": [
     {
       "name": "yangchang9999",
@@ -3081,6 +3081,26 @@
       "name": "Coolguy1100",
       "id": "641079886668",
       "timestamp": "2026-01-02T02:43:24.000Z"
+    },
+    {
+      "name": "PR99isme",
+      "id": "613741667207",
+      "timestamp": "2026-01-06T21:55:25.000Z"
+    },
+    {
+      "name": "hugina47",
+      "id": "358906140449",
+      "timestamp": "2026-01-06T21:55:53.000Z"
+    },
+    {
+      "name": "hsnu9878",
+      "id": "531206583626",
+      "timestamp": "2026-01-06T21:56:22.000Z"
+    },
+    {
+      "name": "sohysteria",
+      "id": "312435459985",
+      "timestamp": "2026-01-07T07:17:15.000Z"
     }
   ]
 }
